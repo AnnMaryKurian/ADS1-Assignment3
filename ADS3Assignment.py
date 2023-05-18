@@ -153,6 +153,7 @@ def fitting(df_crl):
     plt.savefig("forecast" + '.png')
     plt.show()
 
+
 # finding the error ranges for the country
     low, up = err.err_ranges(year, logistic, param, sigma)
     plt.figure()
